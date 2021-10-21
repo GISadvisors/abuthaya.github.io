@@ -64,3 +64,12 @@ p.desc {
 body {
     background-color: aliceblue;
 }
+
+a.linked {
+    background-color: #666;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
