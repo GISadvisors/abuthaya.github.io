@@ -25,6 +25,19 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    font-size: 35px;
+    color: white;
+    background-color: #222;
+    text-align: center
+}
+
+p {
+    font-size: 25px;
+    color: white;
+    background-color: #444;
+    font-weight: bold;
+}
 .intro{
   padding: 30px;
   margin-top: 30px;
