@@ -66,7 +66,7 @@ body {
 }
 
 a.linked {
-    background-color: #666;
+    background-color: #6763ba;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -74,5 +74,17 @@ a.linked {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 130px
+    width: 85px
+}
+
+a.inst {
+    background-color: #ac63ba;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85px
 }
