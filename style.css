@@ -37,6 +37,7 @@ p {
     color: white;
     background-color: #444;
     font-weight: bold;
+    text-align: center;
 }
 .intro{
   padding: 30px;
@@ -54,6 +55,11 @@ img{
 
 p.desc {
     font-size: 20px;
-    text-align: center;
+    color: black;
+    background-color: none;
+    font-weight: normal;
 }
+
+body {
+    background-color: aliceblue;
 }
