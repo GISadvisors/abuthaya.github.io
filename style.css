@@ -1,4 +1,5 @@
 ul {
+    list-style-type: none;
     background-color: #555;
     position: fixed;
     top: 0;
@@ -14,14 +15,11 @@ li a {
     color: antiquewhite;
     text-align: center;
     padding: 10px 15px;
-}
-
-
-body {
-  background-color: lightblue;
+    text-decoration: none;
 }
 
 h1 {
-  color: navy;
-  margin-left: 20px;
+    font-size: 45px;
+    background-color: black;
+    text-align: center;
 }
