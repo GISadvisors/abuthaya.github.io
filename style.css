@@ -65,8 +65,7 @@ body {
     background-color: aliceblue;
 }
 
-a.linked {
-    background-color: #6763ba;
+a {
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -74,17 +73,13 @@ a.linked {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85px
+    width: 85px    
+}
+
+a.linked {
+    background-color: #6763ba;
 }
 
 a.inst {
     background-color: #ac63ba;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85px
 }
