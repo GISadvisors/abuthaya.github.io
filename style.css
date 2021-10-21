@@ -1,3 +1,4 @@
+/* Formatting for navigation bar inspired by W3schools, https://www.w3schools.com/css/css_navbar.asp */
 ul {
     list-style-type: none;
     background-color: #555;
@@ -6,10 +7,12 @@ ul {
     width: 100%
 }
 
+/* Setting navigation bar to float at top of page */
 li {
     float: left;
 }
 
+/* Formatting of text of links in navigation bar */
 li a {
     display: block;
     color: antiquewhite;
@@ -18,6 +21,7 @@ li a {
     text-decoration: none;
 }
 
+/* Styling text for Header 1 on both pages */
 h1 {
     font-size: 45px;
     color: white;
@@ -25,6 +29,7 @@ h1 {
     text-align: center;
 }
 
+/* Styling text for Header 2 on both pages */
 h2 {
     font-size: 35px;
     color: white;
@@ -32,6 +37,7 @@ h2 {
     text-align: center
 }
 
+/* Styling text for Paragraph texts on both pages */
 p {
     font-size: 25px;
     color: white;
@@ -39,6 +45,8 @@ p {
     font-weight: bold;
     text-align: center;
 }
+
+/* Spacing and colour at top of page so header doesn't interfere with navigation bar */
 .intro{
   padding: 30px;
   margin-top: 30px;
@@ -46,22 +54,26 @@ p {
   height: 1250px;
 }
 
+/* Images diplayed centred on page */
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;  
 }
 
+/* Setting size of property images to the native resolution */
 img.house{
     width: 600px;
     height: 400px;
 }
 
+/* Setting size of headshot image to the native resolution */
 img.head{
     width: 378px;
     height: 491px;
 }
 
+/* Different paragraph style for the descriptions of property photos */
 p.desc {
     font-size: 20px;
     color: black;
@@ -69,10 +81,12 @@ p.desc {
     font-weight: normal;
 }
 
+/* Background of webpage set to alice blue*/
 body {
     background-color: aliceblue;
 }
 
+/* External absolute link to linkedin profile styled with linkedin colours and to fit with theme of webpage */
 a.linked {
     background-color: #6763ba;
     color: white;
@@ -85,6 +99,7 @@ a.linked {
     width: 85px  
 }
 
+/* External absolute link to instagram profile styled with instagram colours and to fit with theme of webpage */
 a.inst {
     background-color: #ac63ba;
     color: white;
