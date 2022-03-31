@@ -16,7 +16,7 @@
 <script>
 	// Modified example from this source: https://docs.mapbox.com/mapbox-gl-js/example/wms/
 	// Be sure to insert your OWN mapbox token.
-	mapboxgl.accessToken = 'pk.eyJ1Ijoic2hhd25tZmxlbWluZ2MiLCJhIjoiY2p2cW54OWd6MHBsNTQzbW82eGdoMnhiayJ9.J0aHRw_EPtUzVsp0aEIS1g';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYWJ1dGhheWEiLCJhIjoiY2wxZjF2YWZiMDltczNqcDN0N2pjOXBvYyJ9.mhUR1b4y-Dn7DYAz96J0UA';
     var map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/mapbox/light-v10',
@@ -28,7 +28,7 @@
         map.addSource('wms-test-source', {
             'type': 'raster',
             'tiles': [
-                'https://luna.flemingcollege.ca/arcgis/rest/services/biggerbrains61/CanadaAbuthaya/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=102100&layers=show%3A0&layerDefs=&size=256%2C256&imageSR=102100&historicMoment=&format=png32&transparent=true&dpi=96&time=&layerTimeOptions=&dynamicLayers=&gdbVersion=&mapScale=&rotation=&datumTransformations=&layerParameterValues=&mapRangeValues=&layerRangeValues=&f=image'
+                'https://luna.flemingcollege.ca/arcgis/rest/services/DemoMapExample/MapServer/export?bbox={bbox-epsg-3857}&bboxSR=EPSG%3A3857&layers=0&layerDefs=&size=256%2c256&imageSR=&format=png&transparent=true&dpi=&time=&layerTimeOptions=&dynamicLayers=&gdbVersion=&mapScale=&f=image'
             ],
             'tileSize': 256
         });
